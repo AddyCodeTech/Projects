@@ -1,0 +1,12 @@
+.created {
+    width: 110px;
+    height: 20px;
+    background-color: red;
+    animation: colorChange 4s infinite;
+}
+
+@keyframes colorChange {
+    0% { background-color: red; }
+    50% { background-color: blue; }
+    100% { background-color: red; }
+}
